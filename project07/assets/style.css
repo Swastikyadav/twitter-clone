@@ -1,0 +1,220 @@
+body {
+    font-family: sans-serif;
+    background-color: #E6ECF0;
+}
+
+/*
+    ===============================
+    Top Menu Bar (Navigation bar)
+    ===============================
+*/
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+nav {
+    border-bottom: 1px solid gainsboro;
+    height: 50px;
+    background-color: #fff;
+}
+.main-link {
+    margin-left: 50px;
+    padding-top: 15px;
+}
+.float-left {
+    float: left;
+}
+nav a {
+    padding: 10px;
+}
+.icon-size {
+    font-size: 20px;
+    margin-right: 5px;
+    color: #1EA1F2;
+}
+.logo {
+    margin-left: 150px;
+    padding-top: 15px;
+    font-size: 25px;
+}
+.right-menu {
+    float: right;
+    position: relative;
+    width: 200px;
+}
+.menu-pic {
+    border-radius: 50%;
+}
+.tweet-btn {
+    color: #fff;
+    background-color: #1EA1F2;
+    display: inline-block;
+    margin: 20px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -10px;
+}
+/*
+    ===============================
+    Left page content
+    ===============================
+*/
+.small {
+    font-size: 15px;
+}
+.right-content,
+.left-content {
+    width: 25%;
+    margin: 5px;
+}
+.center-content {
+    width: 45%;
+    margin: 5px;
+}
+.container {
+    margin: 5px 5px 0 35px;
+}
+
+.top-half {
+    width: 100%;
+    height: 100px;
+    background-color: #1EA1F2;
+}
+.bottom-half {
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+    position: relative;
+}
+.profile-pic {
+    float: left;
+    border-radius: 50%;
+    padding: 5px;    
+}
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    margin: 5px;
+}
+.user-name {
+    font-size: 15px;
+    font-weight: normal;
+}
+.info {
+    background-color: #fff;
+    height: 80px;
+    margin-bottom: 15px;
+}
+.info p {
+    margin: 18px;
+}
+.num {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1EA1F2;
+}
+.sub-heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+.trending {
+    background-color: #fff;
+    margin-top: 15px;
+    padding: 20px;
+}
+.trending p {
+    line-height: 3;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1EA1F2;
+}
+/*
+    ===============================
+    Right page content
+    ===============================
+*/
+.new-twitter {
+    background-color: #fff;
+    height: 370px;
+}
+.premium-twitter {
+    margin: 5px 50px;
+    
+}
+.new-twitter h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    width: 250px;
+    line-height: 1.3;
+}
+.new-twitter p {
+    margin: 10px auto;
+    text-align: center;
+    width: 250px;
+    line-height: 1.2;
+}
+.new-tw-btn {
+    margin: 5px auto;
+    width: 250px;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: #1EA1F2;
+    color: #fff;
+    padding: 5px;
+
+}
+.who-to-follow {
+    background-color: #fff;
+    height: 340px;
+    margin-top: 15px;
+    padding: 10px;
+}
+.who-to-follow img {
+    float: left;
+    border-radius: 50%;
+    margin: 10px;
+}
+.follow-info {
+    float: left;
+    width: 150px;
+    margin: 18px;
+}
+.follow-btn {
+    margin: 5px;
+    border: 2px solid #1EA1F2;
+    border-radius: 50px;
+    width: 60px;
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.footer {
+    background-color: #fff;
+    margin-top: 15px;
+    padding: 15px;
+    line-height: 1.2;
+    color: gray;
+}
+.adv {
+    color: #1EA1F2;
+}
+/*
+    ===============================
+    Center page content
+    ===============================
+*/
+.center-content {
+    background-color: #fff;
+}
+.center-tweets {
+    padding: 30px;
+}
